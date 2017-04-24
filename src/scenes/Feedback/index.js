@@ -4,6 +4,7 @@ import { Layout, Row, Col } from 'antd';
 
 import Form from './components/Form';
 import Chart from './components/Chart';
+import Comments from './components/Comments';
 import styles from './styles.scss';
 
 const Feedback = () => (
@@ -21,6 +22,7 @@ const Feedback = () => (
 						<Chart />
 					</Col>
 				</Row>
+				<Comments />
 			</Layout.Content>
 		</Layout>
 	</div>

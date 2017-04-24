@@ -1,0 +1,17 @@
+:local(.Comment) {
+	.info {
+		margin-bottom: 10px;
+	}
+
+	.date {
+		color: #999;
+	}
+
+	.ant-rate {
+		font-size: 10px;
+	}
+
+	.ant-rate-disabled .ant-rate-star {
+		cursor: default;
+	}
+}
