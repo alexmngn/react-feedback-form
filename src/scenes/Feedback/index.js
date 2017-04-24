@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules';
 import { Layout, Row, Col } from 'antd';
 
 import Form from './components/Form';
+import Chart from './components/Chart';
 import styles from './styles.scss';
 
 const Feedback = () => (
@@ -16,7 +17,9 @@ const Feedback = () => (
 					<Col span={8}>
 						<Form />
 					</Col>
-					<Col span={16}></Col>
+					<Col span={16}>
+						<Chart />
+					</Col>
 				</Row>
 			</Layout.Content>
 		</Layout>
