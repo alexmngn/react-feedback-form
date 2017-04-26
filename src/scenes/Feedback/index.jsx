@@ -11,7 +11,7 @@ const Feedback = () => (
 	<div styleName="Feedback">
 		<Layout>
 			<Layout.Header>
-				Checkout.com React Test
+				Feedback form
 			</Layout.Header>
 			<Layout.Content>
 				<Row gutter={32}>
