@@ -4,16 +4,7 @@ import { Form, Input, Rate, Button } from 'antd';
 
 import * as commentsActionCreators from '../../data/comments/actions';
 
-const initialState = {
-	name: '',
-	email: '',
-	rating: 0,
-	comment: '',
-};
-
 class FormContainer extends Component {
-
-	state = initialState
 
 	onSubmit(e) {
 		e.preventDefault();
